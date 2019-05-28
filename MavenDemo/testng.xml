@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="3">
+  <test name="cb">
+  <parameter name = "browser" value ="cb"/>
+  <parameter name = "un" value ="kalai"/>
+  <parameter name = "pw" value ="kv"/>
+    <classes>
+      <class name="org.maven.MavenDemo.TestNG"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="ff">
+  <parameter name = "browser" value ="ff"/>
+  <parameter name = "un" value ="kalai"/>
+  <parameter name = "pw" value ="kv"/>
+    <classes>
+      <class name="org.maven.MavenDemo.TestNG"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  </suite> <!-- Suite -->
